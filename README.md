@@ -1,4 +1,4 @@
-<div align="center">
+<img width="1763" height="1594" alt="Screenshot_18-5-2026_11620_localhost" src="https://github.com/user-attachments/assets/05bbe83e-0d55-40c8-a367-7890cdd3be5b" /><div align="center">
 
 <img src="https://img.shields.io/badge/PhishGuard-AI%20Phishing%20Detection-ef4444?style=for-the-badge&logo=shield&logoColor=white" alt="PhishGuard"/>
 
@@ -65,7 +65,7 @@ Built as a capstone cybersecurity project demonstrating end-to-end secure system
 
 > The main dashboard showing the URL Scanner with Live Protection status, VirusTotal connection indicator, and quick-test URL buttons for immediate testing.
 
-![PhishGuard Dashboard Home](screenshots/Screenshot_2026-05-18_104606.png)
+![PhishGuard Dashboard Home] 
 
 ---
 
@@ -73,7 +73,8 @@ Built as a capstone cybersecurity project demonstrating end-to-end secure system
 
 > PhishGuard analyzing `http://paypa1-secure-verify.tk/login/confirm` — flagged as **PHISHING** with 100% confidence. Shows Risk Score gauge maxed out, VirusTotal result (2/93 engines), and all triggered rules including high-risk TLD, brand impersonation of PayPal, and missing HTTPS. Feature analysis table highlights suspicious values in red.
 
-![Phishing Detected Result](screenshots/Screenshot_18-5-2026_104816_localhost.jpeg)
+![Phishing Detected Result] <img width="1763" height="1956" alt="Screenshot_18-5-2026_104816_localhost" src="https://github.com/user-attachments/assets/7d7636a8-bcfa-4945-85aa-717e6e336afd" />
+
 
 ---
 
@@ -81,7 +82,8 @@ Built as a capstone cybersecurity project demonstrating end-to-end secure system
 
 > Scanning `https://www.google.com` returns **CLEAN — LOOKS SAFE** with only 4.2% confidence of threat. Domain age verified at 28 years via WhoisXML. VirusTotal returns 0/93 engines flagged. Feature breakdown shows all green indicators except Brand Lookalike Score (expected for google.com matching its own brand).
 
-![Clean Site Result](screenshots/Screenshot_18-5-2026_105053_localhost.jpeg)
+![Clean Site Result]<img width="1763" height="2000" alt="Screenshot_18-5-2026_105053_localhost" src="https://github.com/user-attachments/assets/2c766a5b-7d0e-4d0e-8eb3-3c16e449d278" />
+
 
 ---
 
@@ -89,7 +91,8 @@ Built as a capstone cybersecurity project demonstrating end-to-end secure system
 
 > Email header analysis of a fake `securebankalerts.com` phishing email. System detects SPF: FAIL, DKIM: NONE, DMARC: FAIL with animated risk gauge in the red zone. Triggered rules displayed: SPF authentication failed, DMARC policy failed, Reply-To domain mismatch, and urgent language detected. Recent scan history visible at the bottom.
 
-![Email Phishing Detected](screenshots/Screenshot_18-5-2026_11733_localhost.jpeg)
+![Email Phishing Detected] <img width="1763" height="1625" alt="Screenshot_18-5-2026_11733_localhost" src="https://github.com/user-attachments/assets/0f4d8399-719c-4620-9987-feaad097ba01" />
+
 
 ---
 
@@ -97,7 +100,8 @@ Built as a capstone cybersecurity project demonstrating end-to-end secure system
 
 > Analyzing a legitimate Microsoft Outlook server email header. System correctly returns **CLEAN — LOOKS SAFE** despite SPF/DKIM/DMARC being absent (not present in partial headers). Risk gauge in the green zone. Demonstrates low false-positive rate on real enterprise mail headers.
 
-![Email Clean Result](screenshots/Screenshot_18-5-2026_11620_localhost.jpeg)
+![Email Clean Result] <img width="1763" height="1594" alt="Screenshot_18-5-2026_11620_localhost" src="https://github.com/user-attachments/assets/0605b0cd-8f7c-48bc-91c2-2e377f118b36" />
+
 
 ---
 
@@ -105,7 +109,7 @@ Built as a capstone cybersecurity project demonstrating end-to-end secure system
 
 > The community reporting interface where users can submit a suspicious URL, categorize it as Phishing/Spam/Malware, and add an observed description. Report type dropdown and description field shown in ready state.
 
-![Reports Page](screenshots/Screenshot_2026-05-18_110900.png)
+![Reports Page] 
 
 ---
 
@@ -113,7 +117,7 @@ Built as a capstone cybersecurity project demonstrating end-to-end secure system
 
 > A completed report form for `paypa1-secure-verify.tk` with auto-generated description summarizing triggered detection rules: multiple suspicious keywords, high-risk TLD, brand lookalike, and no HTTPS encryption.
 
-![Report Filled](screenshots/Screenshot_2026-05-18_111040.png)
+![Report Filled] 
 
 ---
 
@@ -121,7 +125,7 @@ Built as a capstone cybersecurity project demonstrating end-to-end secure system
 
 > Confirmation screen after report submission showing a unique UUID report ID (`e84b776f-b094-4e1e-82da-7e90072dda98`) in green, confirming the phishing URL has been logged to the database for community protection.
 
-![Report Submitted](screenshots/Screenshot_2026-05-18_111053.png)
+![Report Submitted] 
 
 ---
 
@@ -221,7 +225,7 @@ The detection engine uses an **ensemble of two classifiers**:
 
 **Step 1 — Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/phishguard.git
+git clone https://github.com/Pratik01-Techi/Phishing_Detection_-_Prevention_System.git
 cd phishguard
 ```
 
