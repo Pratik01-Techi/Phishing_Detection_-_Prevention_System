@@ -1,5 +1,3 @@
-<img width="1763" height="1594" alt="Screenshot_18-5-2026_11620_localhost" src="https://github.com/user-attachments/assets/05bbe83e-0d55-40c8-a367-7890cdd3be5b" /><div align="center">
-
 <img src="https://img.shields.io/badge/PhishGuard-AI%20Phishing%20Detection-ef4444?style=for-the-badge&logo=shield&logoColor=white" alt="PhishGuard"/>
 
 # 🛡️ PhishGuard
